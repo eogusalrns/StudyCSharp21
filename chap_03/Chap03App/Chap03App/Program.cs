@@ -10,6 +10,8 @@ namespace Chap03App
     {
         static void Main(string[] args)
         {
+            //주석임
+            Console.WriteLine("Hello, World!");
         }
     }
 }
