@@ -32,7 +32,6 @@ namespace LoopTestApp
                 }
                 Console.WriteLine("----------------------------------");
             }
-
         }
     }
 }
