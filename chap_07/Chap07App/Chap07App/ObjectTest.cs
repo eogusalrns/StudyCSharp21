@@ -27,23 +27,37 @@ namespace Chap07App
 
             Cat mooyaho = new Cat("냥","냥");
             mooyaho.Meow();
+
+            Cat yomi = new Cat("냥", "냥냥", "냥냥냥");
+            yomi.Meow();
         }
     }
 
     class Cat
     {
         public Cat(){}
-        public Cat(string _name,string _color)
+        public Cat(string Name)
         {
-            Name = _name;
-            Color = _color;
+            this.Name = Name;
+        }
+        public Cat(string Name,string Color) : this(Name)
+        {
+            //this.Name = Name;
+            this.Color = Color;
+        }
+        public Cat(string Name,string Color,string Gender) :this(Name,Color)
+        {
+            //this.Name = Name;
+            //this.Color = Color;
+            this.Gender = Gender;
         }
         public string Name;//이름
         public string Color;//색상
+        public string Gender;//성별
         
         public void Meow()
         {
-            Console.WriteLine($"{Name} : 야옹");
+            Console.WriteLine($"{Name} / {Color} / {Gender} : 야옹");
         }
     }
 }
