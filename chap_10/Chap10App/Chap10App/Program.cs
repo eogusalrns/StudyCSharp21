@@ -18,7 +18,6 @@ namespace Chap10App
             Array.Resize(ref array, 6);
             for (int i = 0; i < array.Length ; i++)
             {
-                //array[i] = 10 * i;
                 Console.WriteLine($"{i}번째 값: {array[i]}");
             }
             Console.WriteLine("1000인덱스찾기-------------------");
