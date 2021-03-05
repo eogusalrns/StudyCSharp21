@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace d
 {
@@ -6,14 +7,17 @@ namespace d
     {
         static void Main(string[] args)
         {
-            int a = int.Parse(Console.ReadLine());
-            for (int i = 0; i < a; i++)
+            string s = Console.ReadLine();
+            string[] ss = s.Split();
+            int a = int.Parse(ss[0]);
+            int b = int.Parse(ss[1]);
+            int c = 0;
+            while (true)
             {
-                string s = Console.ReadLine();
-                string[] ss = s.Split();
-                int x = int.Parse(ss[0]);
-                int y = int.Parse(ss[1]);
-                Console.WriteLine(x + y);
+                c = a + b;
+                a = b;
+                b = c;
+                if ( a == ss[0] && b)
             }
         }
     }
