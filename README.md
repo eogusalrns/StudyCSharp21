@@ -8,6 +8,19 @@ PKNU C# 학습 리포지토리
 기본 문법 학습
 (https://github.com/eogusalrns/StudyCSharp21/tree/main/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EB%AC%B8%EB%B2%95)
 
+- 데이터 보관하기
+- 연산자
+- 흐름제어
+- 메소드
+- 클래스
+- 프로퍼티
+- 배열 및 컬렉션
+- 일반화
+- 예외처리
+- 대리자와 이벤트
+- LINQ
+- 스레드
+ 
 ## WinForm
 (https://github.com/eogusalrns/StudyCSharp21/tree/main/WinForm/chap_20/Chap20App)
 
