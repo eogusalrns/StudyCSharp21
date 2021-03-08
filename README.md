@@ -1,4 +1,4 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+&bg_color=DEG
 # StudyCSharp
 
 PKNU C# 학습 리포지토리
