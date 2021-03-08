@@ -1,4 +1,4 @@
-![C# repository!](https://github-readme-stats.vercel.app/api?username=eogusalrns&show_icons=true&theme=radical)
+![C# repository!](https://github-readme-stats.vercel.app/api?username=eogusalrns&show_icons=true&theme=cobalt)
 # StudyCSharp
 
 PKNU C# 학습 리포지토리
