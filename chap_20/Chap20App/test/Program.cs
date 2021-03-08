@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace test
 {
@@ -12,20 +8,26 @@ namespace test
         {
             int cnt = int.Parse(Console.ReadLine());
             int[] arr = new int[cnt];
-            int max = 0;
-            int hap = 0;
             for (int i = 0; i < cnt; i++)
             {
-                arr[i] = int.Parse(Console.ReadLine());
-                if (max < arr[i])
-                    max = arr[i];
+                int count = 0;
+                string x = Console.ReadLine();
+                string[] xx = x.Split();
+                int hap = 0;
+                int num = int.Parse(xx[0]);
+                for (int j = 1; j < xx.Length; j++)
+                {
+                    hap += int.Parse(xx[j]);
+                }
+                int avg = hap / (xx.Length - 1);
+                for (int j = 1; j < xx.Length; j++)
+                {
+                    if (int.Parse(xx[j]) > avg)
+                        count++;
+                }
+                Console.WriteLine("{0:#0.000%}", (float)count / (xx.Length - 1));
+                
             }
-            for (int i = 0; i < cnt; i++)
-            {
-                arr[i] = arr[i] / max * 100;
-                hap += arr[i];
-            }
-            Console.WriteLine(hap);
         }
     }
 }
